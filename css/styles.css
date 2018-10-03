@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+figure,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: #dddddd;
+  max-width: 500px;
+}
+
+/* Search section */
+
+#search-section {
+  flex: 30%;
+}
+
+#search-section form {
+  display: flex;
+  justify-content: center;
+}
+
+.search-sections {
+  padding: 15px;
+}
+
+.input-form {
+  flex: 70%;
+  margin-right: 10px;
+}
+
+.input-form select{
+  width: 100%;
+}
+
+.button-form {
+  flex: 30%;
+  max-width: 30%;
+}
+
+/* end search section */
+
+
+/* content section */
+
+#body-section {
+  flex: 70%;
+  display: flex;
+}
+
+#body-section div {
+  flex: 40%;
+  max-width: 40%;
+  padding: 5px;
+  text-align: center;
+}
+
+#body-section figure {
+  flex: 60%;
+  max-width: 60%;
+}
+
+#body-section figure img {
+  max-width: 90%;
+}
+
+
+/* end content section */
